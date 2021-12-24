@@ -21,7 +21,7 @@
       {
         "label": "Monokai Night",
         "uiTheme": "vs-dark",
-        "path": "./themes/MonokaiNight-color-theme.tmTheme"
+        "path": "./themes/MonokaiNight-color-theme.json"
       }
     ]
   }
