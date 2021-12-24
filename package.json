@@ -1,0 +1,27 @@
+{
+  "name": "monokai-night",
+  "displayName": "Monokai Night",
+  "description": "Monokai Night theme for VSCode",
+  "author": "Jon Bellah <jon@bellah.dev>",
+  "version": "0.1.0",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.45.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonbellah/monokai-night.git"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Monokai Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/MonokaiNight-color-theme.tmTheme"
+      }
+    ]
+  }
+}
