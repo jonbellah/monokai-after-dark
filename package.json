@@ -3,6 +3,7 @@
   "displayName": "Monokai Night",
   "description": "Monokai Night theme for VSCode",
   "author": "Jon Bellah <jon@bellah.dev>",
+  "publisher": "jonbellah",
   "version": "0.1.0",
   "license": "MIT",
   "engines": {
