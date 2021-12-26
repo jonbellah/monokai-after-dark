@@ -1,27 +1,40 @@
 {
-  "name": "monokai-night",
-  "displayName": "Monokai Night",
-  "description": "Monokai Night theme for VSCode",
+  "name": "monokai-after-dark",
+  "displayName": "Monokai After Dark",
+  "description": "Monokai After Dark theme for VSCode",
   "author": "Jon Bellah <jon@bellah.dev>",
   "publisher": "jonbellah",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "license": "MIT",
+  "scripts": {
+    "bundle": "vsce package",
+    "publish": "vsce publish"
+  },
   "engines": {
     "vscode": "^1.45.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jonbellah/monokai-night.git"
+    "url": "https://github.com/jonbellah/monokai-after-dark.git"
   },
   "categories": [
     "Themes"
   ],
+  "icon": "./images/icon.png",
+  "keywords": [
+    "VSCode",
+    "Themes"
+  ],
+  "galleryBanner": {
+    "color": "#141820",
+    "theme": "dark"
+  },
   "contributes": {
     "themes": [
       {
-        "label": "Monokai Night",
+        "label": "Monokai After Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/MonokaiNight-color-theme.json"
+        "path": "./theme/monokai-after-dark.json"
       }
     ]
   }
