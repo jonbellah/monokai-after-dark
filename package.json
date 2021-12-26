@@ -20,7 +20,7 @@
   "categories": [
     "Themes"
   ],
-  "icon": "./images/icon.png",
+  "icon": "images/icon.png",
   "keywords": [
     "VSCode",
     "Themes"
